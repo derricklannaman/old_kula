@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+
+development:
+  <<: *default
+  database: kula_development
+
+test:
+  <<: *default
+  database: kula_test
+
+production:
+  <<: *default
+  database: kula_production
+  url: <%= ENV['KULA_DATABASE_URL'] %>
