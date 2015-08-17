@@ -1,16 +1,10 @@
-require 'rails_helper'
+describe 'Public-facing pages' do
 
-describe 'home page' do
-
-  context 'Visiting the home page' do
-
+  context 'when visiting the home page' do
     it 'shows the home page' do
       visit "http://www.example.com/"
-      expect(page).to have_content "Kula"
+      expect(page).to have_css('body.data-controller-home')
     end
-
-
   end
-
 
 end
