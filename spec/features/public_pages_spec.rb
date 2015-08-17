@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 describe 'home page' do
 
   context 'Visiting the home page' do
