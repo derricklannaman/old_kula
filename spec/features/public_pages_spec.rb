@@ -8,7 +8,7 @@ describe 'Public-facing pages' do
     end
 
     it 'shows the home page' do
-      expect(page).to have_css('body.data-controller-home')
+      expect(page).to have_css('body.data-controller-index')
     end
 
     it 'has a navigation bar with links' do
@@ -19,6 +19,18 @@ describe 'Public-facing pages' do
       expect(page).to have_link('about')
       expect(page).to have_link('menu')
       expect(page).to have_link('news')
+    end
+  end
+
+  context "when visiting the about page" do
+    it 'shows the about page' do
+      visit about_path
+      expect(page).to have_css('body.data-controller-about')
+    end
+
+    it 'has the content About Us' do
+      visit about_path
+      expect(page).to have_content 'About Us'
     end
   end
 
