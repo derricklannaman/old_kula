@@ -7,5 +7,9 @@
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
   %body{:class => "#{controller_name} data-controller-#{action_name}"}
+    .notice
+      = notice
+    .alert
+      = alert
 
     = yield

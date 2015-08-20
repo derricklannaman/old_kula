@@ -1,4 +1,19 @@
+%h1
+  Kula
+
+= user_signed_in?
+
+
 %nav
-  = link_to "about", "#"
+  = link_to "about", about_path
   = link_to "menu", "#"
   = link_to "news", "#"
+
+  -# @featured_items.each do |item|
+  %ul
+    %li
+      = "Oxtail"
+    %li
+      = "Jerk Chicken"
+
+
