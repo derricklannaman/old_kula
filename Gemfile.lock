@@ -246,8 +246,9 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
+  autoprefixer-rails
   awesome_print
-  bootstrap-sass
+  bootstrap-sass (~> 3.3.3)
   byebug
   capybara
   database_cleaner

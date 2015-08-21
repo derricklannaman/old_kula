@@ -8,6 +8,7 @@
     = csrf_meta_tags
   %body{:class => "#{controller_name} data-controller-#{action_name}"}
     = render 'shared/message_system'
+    = render 'shared/branding_bar'
     = render 'shared/main_navigation_bar'
 
     = yield
