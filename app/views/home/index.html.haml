@@ -1,19 +1,12 @@
-%h1
-  Kula
+.navbar.navbar-default
+  .container-fluid
+    .navbar-header
+      %a.navbar-brand
+        .brand
+          = link_to "Kula", root_path
+          = link_to "about", about_path
+          =# link_to "menu", menu_path
+          = link_to "news", news_path
 
-= user_signed_in?
-
-
-%nav
-  = link_to "about", about_path
-  = link_to "menu", "#"
-  = link_to "news", "#"
-
-  -# @featured_items.each do |item|
-  %ul
-    %li
-      = "Oxtail"
-    %li
-      = "Jerk Chicken"
 
 
