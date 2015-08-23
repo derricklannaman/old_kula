@@ -28,6 +28,10 @@ describe 'Public-facing pages' do
       expect(page).to have_link('news')
     end
 
+    it 'has a destination nav link' do
+      expect(page).to have_link('destination')
+    end
+
     it 'list featured menu items' do
       visit root_path
 

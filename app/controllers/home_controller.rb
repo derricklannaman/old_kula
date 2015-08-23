@@ -12,4 +12,7 @@ class HomeController < ApplicationController
   def news
   end
 
+  def destinations
+  end
+
 end
