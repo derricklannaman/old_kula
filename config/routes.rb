@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   get "news", to: "home#news"
   get "destinations", to: "home#destinations"
 
-  resources :menu, only: [:index]
+  resources :menus, only: [:index]
 
 end
