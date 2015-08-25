@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
 
-  devise_for :users, :controllers => { registrations: 'registrations' }
+  devise_for :users, :controllers => { registrations: "registrations" }
 
-  root 'home#index'
+  root "home#index"
 
-  get 'about', to: 'home#about'
-  get 'news', to: 'home#news'
-  get 'destinations', to: 'home#destinations'
+  get "about", to: "home#about"
+  get "news", to: "home#news"
+  get "destinations", to: "home#destinations"
+
+  resources :menu, only: [:index]
 
 end
