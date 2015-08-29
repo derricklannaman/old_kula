@@ -4,6 +4,4 @@ class DishesController < ApplicationController
     @dishes = Dish.all
   end
 
-
-
 end

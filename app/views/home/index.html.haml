@@ -1,15 +1,16 @@
-= video_tag("AsianDish.mp4",:controls => true, :autobuffer => true, class: "video-hero")
-.container-fluid
-  .row
+%header.bg-image
+  =# video_tag("AsianDish.mp4",:controls => true, :autobuffer => true, class: "video-hero")
+  .container
     .hero-intro-blurb
       %h1
         kula
       %p
         Sharing cultures through food
 
-      =# image_tag("dish_shrimp.jpg", size: "250x250")
+=# render 'dishes/featured_dishes'
 
-=# render "dishes/featured_dishes"
+
+
 
 
 

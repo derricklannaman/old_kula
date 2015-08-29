@@ -6,30 +6,28 @@ div#app-container {
 }
 
 .hero-intro {
-  width: 100%;
+  /*width: 100%;*/
+}
+.bg-image {
+  background-image: url('dish_shrimp.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 650px;
+  margin-top: -85px;
 }
 
 video.video-hero {
   width: 100%;
   position: relative;
   top: -85px;
-  vertical-align: middle;
 }
 
 .hero-intro-blurb {
   h1 {
-    /*float: left;*/
-    /*width: 100%;*/
-    position: relative;
-    top: -800px;
     color: #FFF;
     font-size: 150px;
   }
   p {
-    /*float: left;*/
-    /*width: 100%;*/
-    position: relative;
-    top: -800px;
     color: #FFF;
     font-size: 50px;
   }

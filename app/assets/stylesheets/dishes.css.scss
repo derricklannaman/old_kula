@@ -1,8 +1,19 @@
-li.dish-panel {
-  border: 1px solid #BBB;
-  width: 200px;
+.dish-panel {
+  width: 330px;
   height: 250px;
   float: left;
-  margin: 10px;
-  list-style-type: none;
+  img {
+    width: 330px;
+  }
+  .dish-info {
+    border: 1px solid #999;
+    padding: 5px;
+    height: 75px;
+    position: relative;
+    border-top: none;
+  }
+}
+
+.container-fluid.featured-dishes {
+    margin-top: -360px;
 }

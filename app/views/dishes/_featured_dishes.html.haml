@@ -1,4 +1,9 @@
-.container-fluid
+.container-fluid.featured-dishes
   .row
-    %h1
-      Dish 1
+    - @dishes.each do |dish|
+      .dish-panel
+        = image_tag("dish_shrimp.jpg")
+        .dish-info
+          = dish.name
+          %br
+          = dish.description
