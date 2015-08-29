@@ -3,3 +3,32 @@
 div#app-container {
   margin-top: 50px;
 }
+
+.hero-intro {
+  width: 100%;
+}
+
+video.video-hero {
+  width: 100%;
+  position: relative;
+  top: -85px;
+  vertical-align: middle;
+}
+
+.hero-intro-blurb {
+  h1 {
+    float: left;
+    width: 100%;
+    position: relative;
+    top: -800px;
+    color: #FFF;
+    font-size: 150px;
+  }
+  p {
+    float: left;
+    width: 100%;
+    position: relative;
+    top: -800px;
+    color: #FFF;
+  }
+}

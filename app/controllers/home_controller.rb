@@ -15,4 +15,7 @@ class HomeController < ApplicationController
   def destinations
   end
 
+  def cart
+  end
+
 end

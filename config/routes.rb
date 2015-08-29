@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get "about", to: "home#about"
   get "news", to: "home#news"
   get "destinations", to: "home#destinations"
-
+  get "cart", to: "home#cart"
   resources :menus, only: [:index]
 
 end
