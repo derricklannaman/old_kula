@@ -1,2 +1,10 @@
 %h1
-  Menus
+  Menu Items
+
+%ul
+  - @dishes.each do |dish|
+    %li.dish-panel
+      = image_tag("dish_shrimp.jpg", size: "200x200")
+      = dish.name
+
+
