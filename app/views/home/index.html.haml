@@ -1,4 +1,4 @@
-= video_tag("AsianDish.mp4",:controls => false, :autobuffer => true, :autoplay => true, class: "video-hero")
+= video_tag("AsianDish.mp4",:controls => true, :autobuffer => true, class: "video-hero")
 .container-fluid
   .row
     .hero-intro-blurb
@@ -9,5 +9,6 @@
 
       =# image_tag("dish_shrimp.jpg", size: "250x250")
 
+= render "dishes/featured_dishes"
 
 
