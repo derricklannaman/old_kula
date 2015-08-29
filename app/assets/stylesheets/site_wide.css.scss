@@ -2,6 +2,7 @@
 
 div#app-container {
   margin-top: 50px;
+  min-height: 1200px;
 }
 
 .hero-intro {
@@ -17,19 +18,24 @@ video.video-hero {
 
 .hero-intro-blurb {
   h1 {
-    float: left;
-    width: 100%;
+    /*float: left;*/
+    /*width: 100%;*/
     position: relative;
     top: -800px;
     color: #FFF;
     font-size: 150px;
   }
   p {
-    float: left;
-    width: 100%;
+    /*float: left;*/
+    /*width: 100%;*/
     position: relative;
     top: -800px;
     color: #FFF;
     font-size: 50px;
   }
+}
+
+footer.site-wide {
+    height: 200px;
+    background-color: #F8F8F8;
 }
