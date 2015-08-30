@@ -1,10 +1,11 @@
 .container-fluid.featured-dishes
   .row
     - @dishes.each do |dish|
-      .col-sm-3
-        .dish-panel
-          = image_tag("dish_shrimp.jpg")
-          .dish-info
-            = dish.name
-            %br
-            = dish.description
+      = link_to(dish) do
+        .col-sm-3
+          .dish-panel
+            = image_tag("dish_shrimp.jpg")
+            .dish-info
+              = dish.name
+              %br
+              = dish.description

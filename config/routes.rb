@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   get "news", to: "home#news"
   get "destinations", to: "home#destinations"
   get "cart", to: "home#cart"
-  resources :dishes, only: [:index]
+  resources :dishes, only: [:index, :show]
 
 end
