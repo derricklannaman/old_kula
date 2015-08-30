@@ -1,8 +1,24 @@
 /* Global style elements go here */
-
+div#app-navigation {
+  position: fixed;
+  width: 100%;
+  top: -30px;
+  z-index: 100;
+}
 div#app-container {
   margin-top: 50px;
   min-height: 1200px;
+}
+.container-fluid.intro-copy {
+    margin-top: 50px;
+    /*border: 1px solid #F00;*/
+}
+.benefit {
+    background-color: #F8F8F8;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .hero-intro {
@@ -23,6 +39,8 @@ video.video-hero {
 }
 
 .hero-intro-blurb {
+  margin-top: 115px;
+  text-align: center;
   h1 {
     color: #FFF;
     font-size: 150px;
