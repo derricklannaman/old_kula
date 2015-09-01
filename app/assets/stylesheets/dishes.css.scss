@@ -1,16 +1,18 @@
 .dish-panel {
-  float: left;
-  margin-bottom: 40px;
   img {
     width: 100%;
   }
   .dish-info {
+    height: 80px;
     padding: 5px;
-    position: relative;
     background-color: #FFF;
+
     box-shadow: 0px 1px 6px #E6E6E6;
   }
 }
 
-.container-fluid.featured-dishes {
+/*Remove padding in featured items*/
+.dish-panel.col-md-4.col-sm-6.col-xs-12 {
+    padding-left: 0px;
+    padding-right: 0px;
 }
