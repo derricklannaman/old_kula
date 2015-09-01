@@ -1,11 +1,23 @@
 %header.bg-image
-  =# video_tag("AsianDish.mp4",:controls => true, :autobuffer => true, class: "video-hero")
   .container
-    .hero-intro-blurb
-      %h1
-        kula
-      %p
-        Sharing cultures through food
+    .row
+      .col-md-12
+        .hero-intro-blurb
+          %h1
+            kula
+          %p
+            Sharing cultures through food
+
+/ video roll
+/ .container-fluid
+/   .hero-intro-blurb
+/     %h1
+/       kula
+/     %p
+/       Sharing cultures through food
+/   %header
+=# video_tag("AsianDish.mp4",:controls => true, :autoplay => true, :autobuffer => true, class: "video-hero")
+
 
 = render 'dishes/featured_dishes'
 
