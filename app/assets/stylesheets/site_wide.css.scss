@@ -35,7 +35,9 @@ div#app-container {
 video.video-hero {
   width: 100%;
   position: relative;
-  top: -85px;
+  /*top: -85px;*/
+  top: -420px;
+  z-index: -1;
 }
 
 .hero-intro-blurb {
@@ -43,11 +45,11 @@ video.video-hero {
   text-align: center;
   h1 {
     color: #FFF;
-    font-size: 150px;
+    font-size: 15em;
   }
   p {
     color: #FFF;
-    font-size: 50px;
+    font-size: 2.5em;
   }
 }
 
@@ -56,3 +58,40 @@ footer.site-wide {
     border-top: 2px solid #999;
     background-color: #F8F8F8;
 }
+
+
+
+body {
+  /*padding-top:70px;*/
+}
+
+/* responsive text queries */
+/*@media screen and (max-width: 992px) {
+  .hero-intro-blurb,p,.btn,input,div,span,h4 {
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-intro-blurb,p,.btn,input,div,span,h4 {
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}*/
