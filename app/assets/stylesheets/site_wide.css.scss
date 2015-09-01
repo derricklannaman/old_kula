@@ -1,3 +1,16 @@
+/*Dark Purple
+$color1: #000000;
+$color2: #150713;
+$color3: #2a0f26;
+$color4: #3f1639;
+$color5: #551c4c;
+$color6: #6a235f;
+$color7: #802a73;
+$color8: #963086;
+$color9: #ac369a;
+light*/
+
+
 /* Global style elements go here */
 div#app-navigation {
   position: fixed;
@@ -11,7 +24,6 @@ div#app-container {
 }
 .container-fluid.intro-copy {
     margin-top: 50px;
-    /*border: 1px solid #F00;*/
 }
 .benefit {
     background-color: #F8F8F8;
@@ -65,33 +77,26 @@ body {
   /*padding-top:70px;*/
 }
 
-/* responsive text queries */
-/*@media screen and (max-width: 992px) {
-  .hero-intro-blurb,p,.btn,input,div,span,h4 {
-    font-size: 90%;
+
+@media screen and (max-width: 1200px) {
+    .hero-intro-blurb {
+      font-size: 90%;
+    }
   }
-  h1 {
-    font-size: 24px;
+@media screen and (max-width: 1024px) {
+    .hero-intro-blurb {
+      font-size: 80%;
+    }
   }
-  h2 {
-    font-size: 22px;
+
+@media screen and (max-width: 970px) {
+    .hero-intro-blurb {
+      font-size: 70%;
+    }
   }
-  h3 {
-    font-size: 18px;
-  }
-}
 
 @media screen and (max-width: 768px) {
-  .hero-intro-blurb,p,.btn,input,div,span,h4 {
-    font-size: 90%;
+    .hero-intro-blurb {
+      font-size: 60%;
+    }
   }
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  h3 {
-    font-size: 16px;
-  }
-}*/
