@@ -33,8 +33,10 @@ div#app-container {
     margin-bottom: 10px;
 }
 
-.hero-intro {
-  /*width: 100%;*/
+.hero-image {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
 }
 .bg-image {
   background-image: url('dish_shrimp.jpg');
