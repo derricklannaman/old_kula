@@ -12,8 +12,21 @@
 }
 
 .container-fluid.featured-dish-wrapper {
-  border: 10px solid #BBB;
-  border-top: 20px solid #BBB;
+  /*border: 10px solid #BBB;*/
+  /*border-top: 20px solid #BBB;*/
+  border: 10px solid rgba(73, 85, 95, 0.1); /* $steel */
+  border-top: 50px solid rgba(73, 85, 95, 0.1); /* $steel */
+   -moz-background-clip: border;
+   -webkit-background-clip: border;
+   background-clip: border-box;
+
+   -moz-background-clip: padding;
+   -webkit-background-clip: padding;
+   background-clip: padding-box;
+
+   -moz-background-clip: content;
+   -webkit-background-clip: content;
+   background-clip: content-box;
 }
 
 .container-fluid.featured-dishes {
