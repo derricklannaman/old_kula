@@ -13,6 +13,7 @@ class HomeController < ApplicationController
   end
 
   def destinations
+    @destinations = Destination.all
   end
 
   def cart

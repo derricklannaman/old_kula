@@ -11,8 +11,19 @@
   }
 }
 
+.container-fluid.featured-dish-wrapper {
+  border: 10px solid #BBB;
+  border-top: 20px solid #BBB;
+}
+
+.container-fluid.featured-dishes {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /*Remove padding in featured items*/
 .dish-panel.col-md-4.col-sm-6.col-xs-12 {
     padding-left: 0px;
     padding-right: 0px;
 }
+
