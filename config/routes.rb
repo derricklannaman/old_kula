@@ -9,5 +9,5 @@ Rails.application.routes.draw do
   get "destinations", to: "home#destinations"
   get "cart", to: "home#cart"
   resources :dishes, only: [:index, :show]
-
+  resources :destinations, only: [:show]
 end
