@@ -2,7 +2,10 @@
   Destinations
 
 - @destinations.each do |destination|
-  .container-fluid
-    = image_tag("#{destination.image}", class: "hero-image")
-    %div
-      = destination.name
+  = link_to destination do
+    .container-fluid
+      = image_tag("#{destination.image}", class: "hero-image")
+      %div
+        = destination.name
+      %div
+        = destination.description
