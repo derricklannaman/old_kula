@@ -12,10 +12,6 @@ class HomeController < ApplicationController
   def news
   end
 
-  def destinations
-    @destinations = Destination.all
-  end
-
   def cart
   end
 
