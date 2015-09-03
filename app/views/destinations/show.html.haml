@@ -1,8 +1,8 @@
-<header class="hero-background #{@destination.name.downcase}-hero img-responsive">
+<header class="hero-background #{hero_image_class} img-responsive">
 .container-fluid
   .row
     .hero-intro-blurb
       %h1
         = "#{@destination.name}"
       %p
-        = "Custom blurb about #{@destination.name}"
+        = "Explore #{@destination.name}"

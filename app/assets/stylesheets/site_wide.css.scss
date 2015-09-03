@@ -44,16 +44,17 @@ div#app-container {
   background-size: cover;
   margin-top: -85px;
   .hero-intro-blurb {
-    opacity: 0.5;
+    opacity: 0.8;
   }
 }
 
-.jamaica-hero {
+.jamaica-hero-img {
   background-image: url('jamaica_beach_cove.jpg');
 }
 
-.brazil-hero {
+.brazil-hero-img {
   background-image: url('brazil.jpg');
+  padding-top: 200px;
 }
 
 .home-page-cover {
