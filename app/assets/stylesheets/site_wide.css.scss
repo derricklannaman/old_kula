@@ -38,13 +38,22 @@ div#app-container {
   background-position: center center;
   background-size: cover;
 }
-.bg-image {
-  background-image: url('dish_shrimp.jpg');
+
+.hero-background {
   background-position: center center;
   background-size: cover;
-  /*height: 650px;*/
-
   margin-top: -85px;
+  .hero-intro-blurb {
+    opacity: 0.5;
+  }
+}
+
+.jamaica-cover {
+  background-image: url('jamaica_beach_cove.jpg');
+}
+
+.home-page-cover {
+  background-image: url('dish_shrimp.jpg');
 }
 
 video.video-hero {

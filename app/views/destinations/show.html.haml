@@ -1,5 +1,8 @@
-%h1
-  = "Welcome to #{@destination.name}"
-
-%div
-  = image_tag(@destination.image, class: "img-thumbnail")
+%header.hero-background.jamaica-cover.img-responsive
+  .container-fluid
+    .row
+      .hero-intro-blurb
+        %h1
+          = "#{@destination.name}"
+        %p
+          Custom blurb about Jamaica
