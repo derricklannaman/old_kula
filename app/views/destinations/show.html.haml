@@ -1,8 +1,8 @@
-%header.hero-background.jamaica-cover.img-responsive
-  .container-fluid
-    .row
-      .hero-intro-blurb
-        %h1
-          = "#{@destination.name}"
-        %p
-          Custom blurb about Jamaica
+<header class="hero-background #{@destination.name.downcase}-hero img-responsive">
+.container-fluid
+  .row
+    .hero-intro-blurb
+      %h1
+        = "#{@destination.name}"
+      %p
+        = "Custom blurb about #{@destination.name}"
