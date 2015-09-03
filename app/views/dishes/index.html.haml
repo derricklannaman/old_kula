@@ -2,11 +2,10 @@
   Menu Items
 
 - @dishes.each do |dish|
-  .dish-panel
-    = image_tag("dish_shrimp.jpg")
-    .dish-info
-      = dish.name
-      %br
-      = dish.description
+  = image_tag("dish_shrimp.jpg", class: "img-thumbnail")
+  .dish-info
+    = dish.name
+    %br
+    = dish.description
 
 
