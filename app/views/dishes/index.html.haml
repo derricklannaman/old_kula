@@ -1,11 +1,13 @@
-%h1
-  Menu Items
+.container-fluid
+  %h1
+    Menu Items
 
-- @dishes.each do |dish|
-  = image_tag("dish_shrimp.jpg", class: "img-thumbnail")
-  .dish-info
-    = dish.name
-    %br
-    = dish.description
+  - @dishes.each do |dish|
+    .dish-panel.img-thumbnail
+      = image_tag("dish_shrimp.jpg")
+      .dish-info
+        = dish.name
+        %br
+        = dish.description
 
 
