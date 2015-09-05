@@ -6,3 +6,9 @@
         = "#{@destination.name}"
       %p
         = "Explore #{@destination.name}"
+
+.container-fluid
+  .row
+    - @dishes.each do |dish|
+      = dish.name
+
