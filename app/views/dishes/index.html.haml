@@ -3,8 +3,10 @@
     Menu Items
 
   - @dishes.each do |dish|
-    .dish-panel.img-thumbnail
-      = image_tag("dish_shrimp.jpg")
+    .dish-panel.img-thumbnail.col-md-4.col-sm-6.col-xs-12
+      .dish-header
+        = dish.destination.name
+      = image_tag(dish.image, class: 'dish_image')
       .dish-info
         = dish.name
         %br

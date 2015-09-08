@@ -8,7 +8,7 @@ class DishesController < ApplicationController
 
   def show
     @dish = Dish.find(params[:id])
-    respond_with(@susu)
+    respond_with(@dish)
   end
 
 end
