@@ -12,30 +12,19 @@
 }
 
 .dish-header {
-    min-height: 40px;
-    text-align: center;
-    border: 1px solid #F00;
-    margin-bottom: 2px;
-    margin-top: -4px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding: 10px;
+  min-height: 40px;
+  text-align: center;
+  border: 1px solid #F00;
+  margin-bottom: 2px;
+  margin-top: -4px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
 }
 
 .container-fluid.featured-dish-wrapper {
-  border: 10px solid rgba(73, 85, 95, 0.1); /* $steel */
-  border-top: 50px solid rgba(73, 85, 95, 0.1); /* $steel */
-   -moz-background-clip: border;
-   -webkit-background-clip: border;
-   background-clip: border-box;
-
-   -moz-background-clip: padding;
-   -webkit-background-clip: padding;
-   background-clip: padding-box;
-
-   -moz-background-clip: content;
-   -webkit-background-clip: content;
-   background-clip: content-box;
+  background-image: url('light_noise_diagonal.png');
+  padding: 25px;
 }
 
 .container-fluid.featured-dishes {
