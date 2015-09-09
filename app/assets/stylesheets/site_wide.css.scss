@@ -63,17 +63,21 @@ video.video-hero {
   h1 {
     color: #FFF;
     font-size: 15em;
+    text-shadow: 0px 1px 3px #555;
   }
   p {
     color: #FFF;
     font-size: 2.5em;
+    text-shadow: 0px 1px 3px #555;
   }
 }
 
 footer.site-wide {
-    height: 200px;
-    border-top: 2px solid #999;
-    background-color: #F8F8F8;
+  height: 200px;
+  border-top: 1px solid #999;
+  background-color: #F8F8F8;
+  background-image: url('light_noise_diagonal.png');
+
 }
 
 
