@@ -1,10 +1,15 @@
 .brand {
-  height: 55px;
+  height: 90px;
   position: relative;
   font-size: 35px;
   background-color: #FFF;
   margin-bottom: -20px;
   margin-top: 30px;
+}
+
+a#logo {
+  position: relative;
+  z-index: 1;
 }
 
 .registry a {

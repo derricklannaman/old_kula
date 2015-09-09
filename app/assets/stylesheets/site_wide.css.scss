@@ -13,16 +13,9 @@ div#app-container {
     margin-top: 50px;
 }
 
-.benefit {
-    background-color: #F8F8F8;
-    padding: 10px;
-    text-align: center;
-    border-radius: 15px;
-    margin-bottom: 10px;
-}
-
 .hero-image {
   width: 100%;
+  height: 350px;
   background-position: center center;
   background-size: cover;
 }
@@ -62,12 +55,12 @@ video.video-hero {
   text-align: center;
   h1 {
     color: #FFF;
-    font-size: 15em;
+    font-size: 7em;
     text-shadow: 0px 1px 3px #555;
   }
   p {
     color: #FFF;
-    font-size: 2.5em;
+    font-size: 2.1em;
     text-shadow: 0px 1px 3px #555;
   }
 }
