@@ -1,0 +1,38 @@
+/* DESTINATION CSS */
+
+.destination-container.redlines {
+  width: 600px;
+  min-height: 260px;
+  background-color: #FF0;
+  float: left;
+  margin: 10px;
+  .content {
+    height: 200px;
+  }
+}
+
+.destination-content {
+    border: 1px solid;
+    height: 200px;
+}
+
+.dish-carousel-container {
+   height: 100px;
+   background-color: #F5F5DC;
+}
+
+.image-section {
+  width: 200px;
+  height: 100%;
+  background-color: #FF4500;
+}
+
+.info-section {
+  width: 400px;
+  height: 100%;
+  background-color: #8A2BE2;
+    margin-top: -198px;
+    margin-left: 200px;
+    float: left;
+}
+

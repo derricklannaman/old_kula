@@ -1,5 +1,9 @@
 @import 'mixins';
 
+.redlines {
+  border: 1px solid red;
+}
+
 /* GLOBAL STYLE ELEMENTS GO HERE */
 
 #app-navigation {
@@ -31,10 +35,12 @@
   text-align: center;
   h1 {
     font-size: 5em;
+    text-transform: lowercase;
     @include default_headline_white_text;
   }
   p {
-    font-size: 2.1em;
+    font-size: 4em;
+    margin-top: -25px;
     @include default_headline_white_text;
   }
 }
