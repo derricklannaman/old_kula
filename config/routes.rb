@@ -10,6 +10,6 @@ Rails.application.routes.draw do
 
   get "admin/dashboard", to: "admin#dashboard"
 
-  resources :dishes, only: [:index, :show, :new]
+  resources :dishes, only: [:index, :show, :new, :create]
   resources :destinations, only: [:index, :show]
 end
