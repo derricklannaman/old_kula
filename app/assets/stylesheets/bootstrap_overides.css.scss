@@ -8,3 +8,12 @@
 .alert {
   margin-bottom: 0px; /* default of 20px */
 }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  width: 400px;
+  padding: 20px;
+  label {
+    color: #c0c0c0;
+  }
+}
