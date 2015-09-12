@@ -1,0 +1,24 @@
+
+.container
+  .row
+    .destination-container.redlines
+      .destination-content
+        .image-section
+        .info-section
+      .dish-carousel-container
+        %p Carousel
+= link_to "hello", { controller: "home", action: "index", id: 5, derrick: "in params"}
+
+
+
+
+/ .container-fluid
+/   =# image_tag("#{destination.image}", class: "hero-image")
+/   .destination-container.redlines
+/     .content.redlines
+/       .image.redlines
+/       .info.redlines
+/         .header.redlines
+/           = destination.name
+/         .description.redlines
+/           = destination.description
