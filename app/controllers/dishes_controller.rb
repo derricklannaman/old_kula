@@ -13,7 +13,7 @@ class DishesController < ApplicationController
   def create
     @dish = Dish.new(dish_params)
     if @dish.save
-      redirect_to(:back)#notice: "New dish saved successfully."
+      redirect_to admin_dashboard_path
     else
       render 'new'
     end
@@ -28,9 +28,8 @@ class DishesController < ApplicationController
   private
 
     def dish_params
-      params.require(:dish).permit(:name,
-                                   :description, :destination_id, :image,
-                                   :price)
+      params.require(:dish)
+                    .permit(:name, :description, :destination_id, :image, :price)
     end
 
 

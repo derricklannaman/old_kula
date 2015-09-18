@@ -1,6 +1,6 @@
 /* DESTINATION CSS */
 
-.destination-container.redlines {
+.destination-container {
   width: 600px;
   min-height: 260px;
   background-color: #FF0;
@@ -28,11 +28,14 @@
 }
 
 .info-section {
-  width: 400px;
   height: 100%;
   background-color: #8A2BE2;
-    margin-top: -198px;
-    margin-left: 200px;
-    float: left;
+  margin-top: -198px;
+  margin-left: 300px;
+  .title {
+    background-color: #FFF;
+    font-size: 2em;
+    text-align: center;
+  }
 }
 
