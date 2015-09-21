@@ -6,5 +6,41 @@
           = image_tag(destination.image, size: '300x200')
         .info-section
           .title= destination.name
+          %p
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       .dish-carousel-container
-        %p Carousel
+        .col-md-12
+          #myCarousel.carousel.slide
+            .carousel-inner
+              .item.active
+                .col-md-4
+                  %a{:href => "#"}
+                    = image_tag 'dish_shrimp.jpg', class: 'img-responsive'
+              .item
+                .col-md-4
+                  %a{:href => "#"}
+                    %img.img-responsive{:src => "http://placehold.it/500/CCCCCC&text=2"}/
+              .item
+                .col-md-4
+                  %a{:href => "#"}
+                    %img.img-responsive{:src => "http://placehold.it/500/eeeeee&text=3"}/
+              .item
+                .col-md-4
+                  %a{:href => "#"}
+                    %img.img-responsive{:src => "http://placehold.it/500/f4f4f4&text=4"}/
+              .item
+                .col-md-4
+                  %a{:href => "#"}
+                    %img.img-responsive{:src => "http://placehold.it/500/fcfcfc/333&text=5"}/
+              .item
+                .col-md-4
+                  %a{:href => "#"}
+                    %img.img-responsive{:src => "http://placehold.it/500/f477f4/fff&text=6"}/
+            %a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel"}
+              %i.glyphicon.glyphicon-chevron-left
+            %a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel"}
+              %i.glyphicon.glyphicon-chevron-right
+
+
