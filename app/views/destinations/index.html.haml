@@ -1,4 +1,53 @@
 %h1 Destinations
 
-= render @destinations
+=# render @destinations
+
+= @destinations.each_with_index do |destination, index|
+  .container
+    .row
+      .destination-container
+        .destination-content
+          .image-section
+            = image_tag(destination.image, size: '300x200')
+          .info-section
+            .title= destination.name
+            %p
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        .dish-carousel-container
+          .myCarousel.carousel.slide
+            .carousel-inner
+              .item.active
+                .col-xs-4
+                  %a{:href => "#"}
+                    = image_tag('dish_shrimp.jpg', size: '300x200', class: 'img-responsive')
+              .item
+                .col-xs-4
+                  %a{:href => "#"}
+                    = image_tag('dish_shrimp.jpg', size: '300x200', class: 'img-responsive')
+              .item
+                .col-xs-4
+                  %a{:href => "#"}
+                    = image_tag('dish_shrimp.jpg', size: '300x200', class: 'img-responsive')
+              .item
+                .col-xs-4
+                  %a{:href => "#"}
+                    = image_tag('dish_shrimp.jpg', size: '300x200', class: 'img-responsive')
+              .item
+                .col-xs-4
+                  %a{:href => "#"}
+                    = image_tag('dish_shrimp.jpg', size: '300x200', class: 'img-responsive')
+              .item
+                .col-xs-4
+                  %a{:href => "#"}
+                    = image_tag('dish_shrimp.jpg', size: '300x200', class: 'img-responsive')
+            / Controls
+            %a.left.carousel-control{"data-slide" => "prev", :href => ".myCarousel", :role => "button"}
+              / %span.glyphicon.glyphicon-chevron-left{"aria-hidden" => "true"}
+              %span.sr-only Previous
+            %a.right.carousel-control{"data-slide" => "next", :href => ".myCarousel", :role => "button"}
+              / %span.glyphicon.glyphicon-chevron-right{"aria-hidden" => "true"}
+              %span.sr-only Next
+
 
